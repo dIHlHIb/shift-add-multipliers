@@ -1,0 +1,808 @@
+{
+  "cases": 29,
+  "stats": {
+    "area": {
+      "hcub": 27801.52,
+      "exact": 26774.52,
+      "sum_saving_pct": 3.694,
+      "median_saving_pct": 1.1353,
+      "smaller": 17,
+      "equal": 2,
+      "larger": 10
+    },
+    "delay_ps": {
+      "hcub": 36830.3,
+      "exact": 36341.24,
+      "sum_saving_pct": 1.3279,
+      "median_saving_pct": 0.966,
+      "smaller": 15,
+      "equal": 2,
+      "larger": 12
+    }
+  },
+  "rows": [
+    {
+      "targets": [
+        11003,
+        24279
+      ],
+      "index": 47,
+      "signed_coefficients": [
+        -22006,
+        24279
+      ],
+      "designs": {
+        "hcub": {
+          "id": "184bcfe74ca2b022736d3e21e20befe754c057aab6ca9cb021e4a7fffa205c8e",
+          "verilog_sha256": "7e7f155e17912cc00cf5dc42c616b371a52b80a4a88ff2dd2e2094ba5181b8aa",
+          "area": 1036.34,
+          "delay_ps": 1253.86,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "3ef3d2d9d2366ec14946baf42a8f7beebcd849abbed2ed458f94093c6b30980c",
+          "verilog_sha256": "5f76ab1020df87856084c86fbe7467918ad92ab22b467cf6650ce3af43f87ad7",
+          "area": 988.46,
+          "delay_ps": 1398.52,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        1189,
+        31357
+      ],
+      "index": 6,
+      "signed_coefficients": [
+        31357,
+        9512
+      ],
+      "designs": {
+        "hcub": {
+          "id": "a81c81bcadef0038d071f97855beaafa61e5214245c29d9c7c9a62833da86cf3",
+          "verilog_sha256": "d7f24ed863c468404d390a739bd3bb8ab4ee5f6eed06645e71ace6de267cae26",
+          "area": 735.76,
+          "delay_ps": 1126.95,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "615350b144f3398d49f5c4f9432c107afdda99b01b9027169c7165b98016b326",
+          "verilog_sha256": "ec9a8f485080de6a8fdd286d976773830f0dae6ae62494cc2491d362f0bedba2",
+          "area": 672.98,
+          "delay_ps": 1085.84,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        12539,
+        15137
+      ],
+      "index": 56,
+      "signed_coefficients": [
+        -30274,
+        12539
+      ],
+      "designs": {
+        "hcub": {
+          "id": "4e0de17b009d80d1e1aecf904c470d126e82245d06524ed1234ca49c170d99fd",
+          "verilog_sha256": "7b16871643b8ad1eebf9c71e7222620d9d1aa28ce30abbf846bde9cd1e2cd91a",
+          "area": 809.17,
+          "delay_ps": 1110.37,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "bb619ff7f936e54b7872438040f3fbbf6c246f15491127a8ce04273ea32e1b76",
+          "verilog_sha256": "941b51df0eb6a17d12d640ec772c799fe3f6ccb3f6b60edba0fd29d1692f5ad9",
+          "area": 852.26,
+          "delay_ps": 1184.42,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        12665,
+        20787
+      ],
+      "index": 14,
+      "signed_coefficients": [
+        25330,
+        20787
+      ],
+      "designs": {
+        "hcub": {
+          "id": "9f18f99bbfc2c31c896159673ee1c689d7e6ab438a1537d0423fab7091936af0",
+          "verilog_sha256": "de8a046f88b1b0c3864a58e1fb47f3bda853853b8185a3a200c2c464a76e2ebe",
+          "area": 892.96,
+          "delay_ps": 1278.77,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "c7f9723b8fdf97c402b3bcd8d5b4e9ccd9e3a45fa590c67835b828f42420dbcd",
+          "verilog_sha256": "69ff1cfbb673ddb75f58d109ab9854c0c918d71586c8e4a40eb18a2d82aca7f8",
+          "area": 879.13,
+          "delay_ps": 1208.09,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        13623,
+        18205
+      ],
+      "index": 76,
+      "signed_coefficients": [
+        -27246,
+        -18205
+      ],
+      "designs": {
+        "hcub": {
+          "id": "bacef3ac1f7cca1432faea96a2a36d307049c4aaa1bb5c3324e0ca7e0b9523c3",
+          "verilog_sha256": "522aa0ea03551193a1d92c6198f3d7ec33280d2dbe1bb46ca10711ca8e266ea8",
+          "area": 1141.14,
+          "delay_ps": 1413.88,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "3b5f778778749f5807ebe95ed5c80e2b6f7c6ca331569f326df95694a86fb982",
+          "verilog_sha256": "79a665d9b169560236aad2949a8205ed10fc24780f95b9c69191a9004e7a1cd9",
+          "area": 1156.3,
+          "delay_ps": 1475.98,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        14011,
+        14811
+      ],
+      "index": 73,
+      "signed_coefficients": [
+        -29622,
+        -14011
+      ],
+      "designs": {
+        "hcub": {
+          "id": "baec05bb0942dcbf169002c8e515a41207c49303871112a11d941cbe951ff2f2",
+          "verilog_sha256": "ccdee19f40f59932aba3e91dca421ea5731054a15273e7a42824edb582b048cc",
+          "area": 900.41,
+          "delay_ps": 1245.02,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "4e61d8779923bec7a6f4ab04cda24373661ac6061efc0616ac96a17226b8b045",
+          "verilog_sha256": "d9a78d0531c9758809555fa883a79edcfa749829a6a9c6e4f9b0c6a53ca1aa63",
+          "area": 913.98,
+          "delay_ps": 1164.94,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        14011,
+        29621
+      ],
+      "index": 41,
+      "signed_coefficients": [
+        -14011,
+        29621
+      ],
+      "designs": {
+        "hcub": {
+          "id": "ff603e6ffd6f7f39c744196269b6afef9f9f7bf52f4c63717770e6a040817574",
+          "verilog_sha256": "b99b997da7bc7888ec722d8a220b7f68bcbae07ed273cb03a653166fbe0984f3",
+          "area": 900.68,
+          "delay_ps": 1261.09,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "709aa780836e7e22a6edf2b0e8341b67240f34f08c5d26ce4e9d8664ca30a051",
+          "verilog_sha256": "dbbc02468aae3b0f7bb09792f3f3f09c24c942cdfafb96709eeb86719e3498bf",
+          "area": 907.86,
+          "delay_ps": 1264.93,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        16847,
+        28107
+      ],
+      "index": 75,
+      "signed_coefficients": [
+        -28107,
+        -16847
+      ],
+      "designs": {
+        "hcub": {
+          "id": "f5474958d0e328fe85af861c9f4598b72c367a2e56275ae13b1a17655b6825f6",
+          "verilog_sha256": "b59c5eb7bc7ac6c0a7d0c7b70db18a527e61136be4684b2ce898e78e3b836901",
+          "area": 1064.27,
+          "delay_ps": 1274.98,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "37feb243624edcc7bbc35c58305c69a4745627cb0bdcf0e9271b147d15409b32",
+          "verilog_sha256": "a66b3626f21d6d01a8d62590527b2713fd14d6e721414f6b671fecf1a47a730e",
+          "area": 1119.06,
+          "delay_ps": 1314.09,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        18205,
+        27245
+      ],
+      "index": 44,
+      "signed_coefficients": [
+        -18205,
+        27245
+      ],
+      "designs": {
+        "hcub": {
+          "id": "208d6e8c7c94e442b86f8b4c9ffc95d7152bfbc4d0d1cf4337be9bf0ab07bdb0",
+          "verilog_sha256": "995300314b2de39570032309bab119c6c6eca0f29751742fcf63261d1d57fcc2",
+          "area": 1253.66,
+          "delay_ps": 1470.2,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "04ef2c88123a3e4ae94013dffcb5d8fe6df1183c2a591922b8563a9130455860",
+          "verilog_sha256": "7eea0c78a65e74832dc6309feec57631056382821fe6be0449509ea74d59ef88",
+          "area": 1098.31,
+          "delay_ps": 1412.23,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        19519,
+        26319
+      ],
+      "index": 13,
+      "signed_coefficients": [
+        26319,
+        19519
+      ],
+      "designs": {
+        "hcub": {
+          "id": "193e865416ee7f983285bf12858c920347db4957e7fdf8cf75f244874af6a392",
+          "verilog_sha256": "07454158722bce317006e584c316e1eef837fd39532c12e202427a73c3c84a02",
+          "area": 717.93,
+          "delay_ps": 1052.01,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "72a12d787579d6103b4cede1eddc98804961f7c57671b81f3e4879eb01b69b6e",
+          "verilog_sha256": "598a9ee0fe01312ec42c7f9d107ffa68448e7c49cea51ef5295759e011fce542",
+          "area": 765.02,
+          "delay_ps": 1211.13,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        20787,
+        25331
+      ],
+      "index": 50,
+      "signed_coefficients": [
+        -25331,
+        20787
+      ],
+      "designs": {
+        "hcub": {
+          "id": "35160f258d00479a85fa02aaabc38417af6b59a125f342c162d5687ab11d8c1c",
+          "verilog_sha256": "1d94bdd57fd5d7240ab64a20fbb5265c3886f07d57b0398a8dac64fb9f72a6fe",
+          "area": 1073.04,
+          "delay_ps": 1538.03,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "fb750eb1c37dc500cd3e43b417cd132cc2b2dedb79c52b1fac83229cb4de9e00",
+          "verilog_sha256": "5bf95eba1590aa43381a196d1c4b1ad22bcfd7cea56740eea103500be982dacb",
+          "area": 912.38,
+          "delay_ps": 1312.15,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        22005,
+        24279
+      ],
+      "index": 15,
+      "signed_coefficients": [
+        24279,
+        22005
+      ],
+      "designs": {
+        "hcub": {
+          "id": "fbaff4c2d01f958d1878b8fea6be6d985f62450ad65475df2048963bba7eb469",
+          "verilog_sha256": "7370ebbd1dfaaecec4a9f1756d39df0744a0646c59fab9ff894992fdbf767588",
+          "area": 1079.43,
+          "delay_ps": 1333.16,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "90be6c1b87be0557cfe45d152a4093020fbf0eabc49864f2682a2de30907917e",
+          "verilog_sha256": "6a255456fd121acd8440c004cda38b183135957b16e49ec51072193f545aa981",
+          "area": 882.06,
+          "delay_ps": 1334.79,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        3035,
+        11003
+      ],
+      "index": 79,
+      "signed_coefficients": [
+        -24280,
+        -22006
+      ],
+      "designs": {
+        "hcub": {
+          "id": "35340b513c3792a3a47e678aced9bf15e21cedc119d4c8d7a9ef77d1b8ee4b84",
+          "verilog_sha256": "157fd219a2a0cc4de3a78c849d73f2a42f44453f90216426180823a001cbcc5e",
+          "area": 953.08,
+          "delay_ps": 1215.97,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "03ebad0cdc302bc7331fc9f409b69977ffdb4387d72543ebe45452ca824babe6",
+          "verilog_sha256": "b79b471e339d86a82e6126cf44f35a70857dc051a97e1d5f7cf3208fd66036b9",
+          "area": 825.66,
+          "delay_ps": 1124.56,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        3035,
+        22005
+      ],
+      "index": 49,
+      "signed_coefficients": [
+        -24280,
+        22005
+      ],
+      "designs": {
+        "hcub": {
+          "id": "ab11f243aa0ed91a78c949fb8467e83d5642a3f963b7e657055fac682d0c0210",
+          "verilog_sha256": "ba2749347a20e37cda087b4917c4bd0dafc9e9d2d8a54af8253ee58f6c6fefdf",
+          "area": 958.93,
+          "delay_ps": 1246.98,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "d7daaaab1cfb0e594e48c4bd27170e9e85e46efb4f1f1de252504df0e90f6fdf",
+          "verilog_sha256": "e8bc9c524ab80b38705a31f47fbb2599a6f855752f3dc3253b5e528959403a3e",
+          "area": 907.86,
+          "delay_ps": 1263.42,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        3211,
+        32611
+      ],
+      "index": 62,
+      "signed_coefficients": [
+        -32611,
+        3211
+      ],
+      "designs": {
+        "hcub": {
+          "id": "a329745b5d2968713c508b898f1d6664547cd8145f4588bae285ad639e79b17f",
+          "verilog_sha256": "1ac22c12c74de816644ebdffc526129dea4a9659a71b2a3943b568bf48bb9258",
+          "area": 880.46,
+          "delay_ps": 1385.31,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "a329745b5d2968713c508b898f1d6664547cd8145f4588bae285ad639e79b17f",
+          "verilog_sha256": "1ac22c12c74de816644ebdffc526129dea4a9659a71b2a3943b568bf48bb9258",
+          "area": 880.46,
+          "delay_ps": 1385.31,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        4551,
+        27245
+      ],
+      "index": 12,
+      "signed_coefficients": [
+        27245,
+        18204
+      ],
+      "designs": {
+        "hcub": {
+          "id": "9c26b2ed4396e515392a561e3fdef53551a6f0c461cdd77923900cf173973a5d",
+          "verilog_sha256": "50ec3f9daf9b4bafc60ee9988260f88983177985f1b33b887976359997cc91c7",
+          "area": 912.65,
+          "delay_ps": 1305.56,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "0369090cf7bc9f207c6385ac07606a769c309985386ec756a8534d5d49997e31",
+          "verilog_sha256": "6b01e70e45ce4c8d33ff14cf05af16e51fc97ef0a996c1297f54889e6b3ce5be",
+          "area": 955.21,
+          "delay_ps": 1267.72,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        4809,
+        16207
+      ],
+      "index": 67,
+      "signed_coefficients": [
+        -32414,
+        -4809
+      ],
+      "designs": {
+        "hcub": {
+          "id": "710eddec498336fd865c14683e1a26dc3281bc77c60fb869c0a00c28cefbb0ee",
+          "verilog_sha256": "91cf5eb79d1c47319d851a78506e3f3afac135fc0e0ee46e4c4d32fcc50d945a",
+          "area": 1022.5,
+          "delay_ps": 1166.69,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "08cdde3826e1e77de31ddfb58c3aa0a0431cf03dc254b3a1f21a25f58326c5a5",
+          "verilog_sha256": "161678221130fb205346b748952311f615e8c2e07b14a3f03b4b86d84c75bf72",
+          "area": 985.0,
+          "delay_ps": 1155.42,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        4809,
+        32413
+      ],
+      "index": 35,
+      "signed_coefficients": [
+        -4809,
+        32413
+      ],
+      "designs": {
+        "hcub": {
+          "id": "e2db4ba831256b9f92faba56dc57821cc21a3afa229275ca00b04dd0fce0f92d",
+          "verilog_sha256": "48b23589ba21499f3c221dc3b73bb782c8a68f90a06bd562f9657b9364d13cb8",
+          "area": 896.42,
+          "delay_ps": 1365.23,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "8a938180f757a45d334e40003302492b09663e6d9fc05f53554d57de1e5a8f76",
+          "verilog_sha256": "3792414d9c57ce7b4a10cce87644b7ec7ed61947e84f848e5bac03627f11f3e9",
+          "area": 931.27,
+          "delay_ps": 1288.72,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        5197,
+        12665
+      ],
+      "index": 46,
+      "signed_coefficients": [
+        -20788,
+        25330
+      ],
+      "designs": {
+        "hcub": {
+          "id": "f06b430237d222d64db6903381efeb2ac2a5ba82c2cc31e38d6c63bf4f912453",
+          "verilog_sha256": "3228a2b25b35cd8a50ec72a81caa441391ffac3851b158eb0461fef6e937fb3f",
+          "area": 1083.15,
+          "delay_ps": 1245.28,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "735aa0618aeb415e2dafd6d898c67309e28f58b2f6761dba7b9c7ea3755d3662",
+          "verilog_sha256": "000bd1f061eb9311e0bc73ea444da2d4a111002998d897f3575ee55b73dd34d7",
+          "area": 999.36,
+          "delay_ps": 1232.84,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        5197,
+        25331
+      ],
+      "index": 78,
+      "signed_coefficients": [
+        -25331,
+        -20788
+      ],
+      "designs": {
+        "hcub": {
+          "id": "e495c9e6d6beaf889289ada511edef3cffbba8561f360275ebeb3a5bea7702ca",
+          "verilog_sha256": "513dc49c613c822e6c5f64ff0eb348133906b89d221acea87996d589cf2f928b",
+          "area": 1013.99,
+          "delay_ps": 1350.06,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "707b1510d6a244005f69c9081d13b9e8120b717209528e360d54375a7021a5c5",
+          "verilog_sha256": "cbf1e0a7502d747abcf8571e989fa943a12d72fbab1554bd9d04440f2ec7431b",
+          "area": 1007.08,
+          "delay_ps": 1303.06,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        601,
+        32413
+      ],
+      "index": 3,
+      "signed_coefficients": [
+        32413,
+        4808
+      ],
+      "designs": {
+        "hcub": {
+          "id": "847b901accd3adbb60feab45a43bddaf2aed510c657da4c6c6119279c61568ae",
+          "verilog_sha256": "81042959c76a063a923903e32365e092e9301651b5b4a989b8af1560072656eb",
+          "area": 798.27,
+          "delay_ps": 1174.7,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "5394e67391411552503daa7cddef6ffdc57fcd6972715e9dc37e5b3d35de22be",
+          "verilog_sha256": "ee5e3223ada6dd3a93bbbfaaa0e947ab11e3bf5add8ca435659101fa0389eff6",
+          "area": 658.08,
+          "delay_ps": 1047.16,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        6393,
+        16069
+      ],
+      "index": 36,
+      "signed_coefficients": [
+        -6393,
+        32138
+      ],
+      "designs": {
+        "hcub": {
+          "id": "713c8e17b32af2f5ed13c2c384fa177d699a7b55e47eb055d4d4148684c81d43",
+          "verilog_sha256": "35bcdf4a8dc97dbc3211f3e0aca021530665df1b737689ba41a37c6d3e519951",
+          "area": 842.95,
+          "delay_ps": 1135.82,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "87f1ef9661d57bf43fdf0b4a68d35ec9b6b26eb08baaaa73b110f26ef8d1f3ae",
+          "verilog_sha256": "fdbe69020c6b5019cdd77f9b13a505ab0b3cafddde273252013ba49729a47869",
+          "area": 833.38,
+          "delay_ps": 1224.15,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        6393,
+        32139
+      ],
+      "index": 68,
+      "signed_coefficients": [
+        -32139,
+        -6393
+      ],
+      "designs": {
+        "hcub": {
+          "id": "9b0f047f59d069d9b1681240536ffb77663037da435457ddb67068bca0cc27bb",
+          "verilog_sha256": "b9426ea45983a16859ffe4504d286ff6df83530e7d77f0987582aee4eb52201b",
+          "area": 1045.65,
+          "delay_ps": 1248.25,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "42f613b8165b9a1877b8b7b36d7b445f78e04e9ab58ca361a33041257e44fb7f",
+          "verilog_sha256": "ad0c2b5e2dcad62de95a0eb636eac1b51e2bab1316c18d3f0de613a6da933c3f",
+          "area": 1020.11,
+          "delay_ps": 1274.98,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        7005,
+        14811
+      ],
+      "index": 55,
+      "signed_coefficients": [
+        -29622,
+        14010
+      ],
+      "designs": {
+        "hcub": {
+          "id": "22ff612e2ac87f8598259cadac87bfd9cbf51453f63bba083a2fd3ea075bbdfe",
+          "verilog_sha256": "5f12e2f215c1c07d391119e45cfe15ab800b5bee2995d293b628368fe61778ed",
+          "area": 924.88,
+          "delay_ps": 1254.73,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "6e63c24c2a61ef37bd7fcc33857b036b744b07922fcabb96fdfba7ae78599173",
+          "verilog_sha256": "52a417e0e67753fbdd6f7c8639b0034b5caf495b621e524a64fbdca067c915a2",
+          "area": 1000.43,
+          "delay_ps": 1263.82,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        7005,
+        29621
+      ],
+      "index": 9,
+      "signed_coefficients": [
+        29621,
+        14010
+      ],
+      "designs": {
+        "hcub": {
+          "id": "2afc71249415c3237ba03587c062cc5db33e2e27a4a31256ce8744662205a405",
+          "verilog_sha256": "0172f5dbdad4fe380e5348df0ee6fcea8e91f7954385726009c0da62c4ed375d",
+          "area": 1026.49,
+          "delay_ps": 1201.13,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "fbe4bdb2593819304e6d352244fdd2155150b37fe66e993468ddb30d2db716dc",
+          "verilog_sha256": "44c46305764755b27db4a05da96045442ae401092659e75c94026a2cfec2f2cf",
+          "area": 947.76,
+          "delay_ps": 1424.07,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        8423,
+        14053
+      ],
+      "index": 11,
+      "signed_coefficients": [
+        28106,
+        16846
+      ],
+      "designs": {
+        "hcub": {
+          "id": "70182cebe92d94434041e760af5de48825bc5c35ca8b65604b4a6de1986b566d",
+          "verilog_sha256": "fe57c6aa3bdc130cd49f5cd713d500d518a97d284924cfe6feac6fe5ed388602",
+          "area": 892.16,
+          "delay_ps": 1265.24,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "5a5c2c8ae08318b1e86a487a3abdef9389d9b715afc45da4eab6fb0d8fec86ce",
+          "verilog_sha256": "b844854b888e27561e871a10ef4de7abd9e696b131a4c9327343df369ef318d1",
+          "area": 725.65,
+          "delay_ps": 1178.87,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        8423,
+        28107
+      ],
+      "index": 53,
+      "signed_coefficients": [
+        -28107,
+        16846
+      ],
+      "designs": {
+        "hcub": {
+          "id": "9c7ca668b8dc806b45451364e6ea5ff955ad01a277af1ad188980db9eaf0e5ad",
+          "verilog_sha256": "78d9501fa01e107733832aaff156b2a5772d0f1d8809f7e16673ece20a368fcc",
+          "area": 1017.18,
+          "delay_ps": 1520.81,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "2ceca77c7ab082da653d09be95b6ff49b69981b1bb03974f440164776d64d66e",
+          "verilog_sha256": "8fd40c6039eb4969b618fb97009a2a25e12e0ddc329398b23662dae1e6e8843e",
+          "area": 1006.81,
+          "delay_ps": 1307.6,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        9513,
+        15679
+      ],
+      "index": 70,
+      "signed_coefficients": [
+        -31358,
+        -9513
+      ],
+      "designs": {
+        "hcub": {
+          "id": "8b1da453359595e449250ae64b7442fa40eec5487b39ba0c56efe77997c4e9c2",
+          "verilog_sha256": "1825fa9d2f9f0a9ba8ce2362085a9ecaf222e84e5dc71ab64204642698ed1026",
+          "area": 978.35,
+          "delay_ps": 1210.68,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "1e769c56721346618b42dd66e4c5ead30674a6b6b9f0b47274ac696269d5b8d4",
+          "verilog_sha256": "e816e64400403b0fbd79ae2957648eead6a0964ffaf009356828ea1ba20c99c2",
+          "area": 992.98,
+          "delay_ps": 1052.89,
+          "checked_signed_inputs": 65536
+        }
+      }
+    },
+    {
+      "targets": [
+        9513,
+        31357
+      ],
+      "index": 38,
+      "signed_coefficients": [
+        -9513,
+        31357
+      ],
+      "designs": {
+        "hcub": {
+          "id": "d155094300728d0a25f9fa218ab87418db05d56af3ab267ad9ee1736a58e7dac",
+          "verilog_sha256": "1e77d8410f99124811291b3a4d05fa0a3a84bbfba30e876dbee7c5ab9d46aaed",
+          "area": 949.62,
+          "delay_ps": 1179.54,
+          "checked_signed_inputs": 65536
+        },
+        "exact": {
+          "id": "d155094300728d0a25f9fa218ab87418db05d56af3ab267ad9ee1736a58e7dac",
+          "verilog_sha256": "1e77d8410f99124811291b3a4d05fa0a3a84bbfba30e876dbee7c5ab9d46aaed",
+          "area": 949.62,
+          "delay_ps": 1179.54,
+          "checked_signed_inputs": 65536
+        }
+      }
+    }
+  ]
+}

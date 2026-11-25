@@ -1,0 +1,84 @@
+import Q15Atlas
+import CPBench
+
+namespace DSPWidth
+open MCM Q15Upper
+
+def width (ts : List Nat) : Nat :=
+  let n := ts.foldl max 1
+  MCM.logFuel n n + 1
+
+theorem width_spec (ts : List Nat) : width ts = (ts.foldl max 1).log2+1 := by
+  simp [width,MCM.logFuel_spec _ _ (Nat.le_refl _)]
+def cap (ts : List Nat) (x : Nat) : Prop := x < 2^width ts
+
+theorem boundedReplay (P : Nat → Prop) (rs : List Step) (xs out : List Nat)
+    (valid : Valid P xs) (small : ∀ r ∈ rs, P r.t) (replayed : replay rs xs = some out) :
+    Valid P out ∧ out.length = xs.length+rs.length := by
+  induction rs generalizing xs with
+  | nil =>
+    simp [replay] at replayed
+    subst out
+    simp [valid]
+  | cons r rs ih =>
+    simp only [replay] at replayed
+    split at replayed
+    next h =>
+      have hp := Bool.and_eq_true_iff.mp h
+      have mem : r.a ∈ 1::xs ∧ r.b ∈ 1::xs ∧ r.t%2=1 := of_decide_eq_true hp.1
+      have step : Valid P (r.t::xs) :=
+        ⟨valid,mem.2.2,small r (by simp),(makes_iff ..).mpr ⟨r.a,mem.1,r.b,mem.2.1,gate_sound r hp.2⟩⟩
+      have next := ih (r.t::xs) step (fun v hv => small v (List.mem_cons_of_mem _ hv)) replayed
+      exact ⟨next.1,by simpa [Nat.add_assoc,Nat.add_comm,Nat.add_left_comm] using next.2⟩
+    next => contradiction
+
+theorem under_cap (e : Entry) (ok : accepts e = true)
+    (small : ∀ r ∈ e.gates, cap e.targets r.t) : Fits (cap e.targets) e.targets e.gates.length := by
+  unfold accepts at ok
+  split at ok
+  next => contradiction
+  next out eq =>
+    have result := boundedReplay (cap e.targets) e.gates [] out trivial small eq
+    exact ⟨out,by simpa using Nat.le_of_eq result.2,result.1,by simpa [List.all_eq_true] using ok⟩
+
+def repairs : List Entry := [
+-- WITNESSES
+]
+
+def selected (e : Entry) : Entry := (repairs.find? (fun r => r.targets==e.targets)).getD e
+def armBudget (e : Entry) := e.gates.length + (if e.targets=[5897,7643] then 1 else 0)
+
+def check (e : Entry) (wanted : List Nat) (budget : Nat) : Bool :=
+  decide (e.targets=wanted ∧ e.gates.length=budget) &&
+  (accepts e && e.gates.all (fun r => decide (r.t < 2^width e.targets)))
+
+theorem checked_sound (e : Entry) (T : List Nat) (n : Nat) (h : check e T n = true) :
+    Fits (cap T) T n := by
+  obtain ⟨same,ok⟩ := Bool.and_eq_true_iff.mp h
+  have eq : e.targets=T ∧ e.gates.length=n := of_decide_eq_true same
+  obtain ⟨accept,small⟩ := Bool.and_eq_true_iff.mp ok
+  rw [←eq.1,←eq.2]
+  apply under_cap e accept
+  intro r hr
+  change r.t < 2^width e.targets
+  exact of_decide_eq_true ((List.all_eq_true.mp small) r hr)
+
+set_option maxRecDepth 300000
+set_option maxHeartbeats 0
+
+def armCheck (e : Entry) := check (selected e) e.targets (armBudget e)
+theorem arm_checked : Q15Atlas.banks.all (fun bank => bank.all armCheck) = true := by decide +kernel
+theorem arm_width_upper : ∀ b ∈ Q15Atlas.banks, ∀ e ∈ b,
+    Fits (cap e.targets) e.targets (armBudget e) := by
+  intro b hb e he
+  have c := (List.all_eq_true.mp ((List.all_eq_true.mp arm_checked) b hb)) e he
+  exact checked_sound (selected e) e.targets (armBudget e) c
+
+theorem cp_checked : CPBench.entries.all (fun e => check e e.targets e.gates.length) = true := by decide +kernel
+theorem cp_width_upper : ∀ e ∈ CPBench.entries, Fits (cap e.targets) e.targets e.gates.length := by
+  intro e he
+  exact checked_sound e e.targets e.gates.length ((List.all_eq_true.mp cp_checked) e he)
+
+#print axioms arm_width_upper
+#print axioms cp_width_upper
+end DSPWidth

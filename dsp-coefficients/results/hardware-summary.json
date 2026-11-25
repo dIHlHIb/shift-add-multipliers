@@ -1,0 +1,119 @@
+{
+  "cases": 29,
+  "distinct_panel_designs": 1399,
+  "mapped_netlists": 2798,
+  "panel": {
+    "standard": {
+      "area": {
+        "reference_sum": 24835.61,
+        "candidate_sum": 23557.51,
+        "sum_reduction_pct": 5.1462,
+        "median_paired_reduction_pct": 4.1622,
+        "smaller": 22,
+        "equal": 3,
+        "larger": 4
+      },
+      "delay_ps": {
+        "reference_sum": 41634.3,
+        "candidate_sum": 41842.52,
+        "sum_reduction_pct": -0.5001,
+        "median_paired_reduction_pct": 0.0,
+        "smaller": 13,
+        "equal": 2,
+        "larger": 14
+      }
+    },
+    "resyn2": {
+      "area": {
+        "reference_sum": 23163.82,
+        "candidate_sum": 22041.28,
+        "sum_reduction_pct": 4.8461,
+        "median_paired_reduction_pct": 4.2316,
+        "smaller": 21,
+        "equal": 3,
+        "larger": 5
+      },
+      "delay_ps": {
+        "reference_sum": 39936.08,
+        "candidate_sum": 40547.61,
+        "sum_reduction_pct": -1.5313,
+        "median_paired_reduction_pct": -0.4993,
+        "smaller": 9,
+        "equal": 2,
+        "larger": 18
+      }
+    }
+  },
+  "filters": {
+    "VINOD03_26B": {
+      "search": {
+        "source_helpers": 1,
+        "legal_helper_sets": 1,
+        "examined_helper_sets": 641,
+        "acyclic_graphs": 9,
+        "mapped_designs": 9
+      },
+      "flows": {
+        "standard": {
+          "area": {
+            "reference": 2888.49,
+            "first": 3115.39,
+            "exchange": 3007.13
+          },
+          "delay_ps": {
+            "reference": 1863.9,
+            "first": 2075.8,
+            "exchange": 2075.8
+          }
+        },
+        "resyn2": {
+          "area": {
+            "reference": 2776.24,
+            "first": 2881.05,
+            "exchange": 2734.21
+          },
+          "delay_ps": {
+            "reference": 1893.99,
+            "first": 2013.23,
+            "exchange": 1998.18
+          }
+        }
+      }
+    },
+    "YEUNG04_40": {
+      "search": {
+        "source_helpers": 7,
+        "legal_helper_sets": 143,
+        "examined_helper_sets": 40385,
+        "acyclic_graphs": 6101,
+        "mapped_designs": 26
+      },
+      "flows": {
+        "standard": {
+          "area": {
+            "reference": 3686.23,
+            "first": 3953.56,
+            "exchange": 3497.37
+          },
+          "delay_ps": {
+            "reference": 2133.84,
+            "first": 2400.24,
+            "exchange": 2273.87
+          }
+        },
+        "resyn2": {
+          "area": {
+            "reference": 3538.6,
+            "first": 3654.31,
+            "exchange": 3384.58
+          },
+          "delay_ps": {
+            "reference": 2143.21,
+            "first": 2390.68,
+            "exchange": 2200.59
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1162 @@
+[
+  {
+    "targets": [
+      601,
+      32413
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 710.75,
+    "candidate": 696.12
+  },
+  {
+    "targets": [
+      1189,
+      31357
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 785.76,
+    "candidate": 742.94
+  },
+  {
+    "targets": [
+      3035,
+      11003
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 734.16,
+    "candidate": 741.08
+  },
+  {
+    "targets": [
+      3035,
+      22005
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 882.59,
+    "candidate": 762.36
+  },
+  {
+    "targets": [
+      3211,
+      32611
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 756.5,
+    "candidate": 756.5
+  },
+  {
+    "targets": [
+      4551,
+      27245
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 959.73,
+    "candidate": 904.93
+  },
+  {
+    "targets": [
+      4809,
+      16207
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 743.47,
+    "candidate": 714.74
+  },
+  {
+    "targets": [
+      4809,
+      32413
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 812.1,
+    "candidate": 753.31
+  },
+  {
+    "targets": [
+      5197,
+      12665
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 963.98,
+    "candidate": 807.31
+  },
+  {
+    "targets": [
+      5197,
+      25331
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 893.76,
+    "candidate": 799.6
+  },
+  {
+    "targets": [
+      6393,
+      16069
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 750.92,
+    "candidate": 725.12
+  },
+  {
+    "targets": [
+      6393,
+      32139
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 833.64,
+    "candidate": 754.38
+  },
+  {
+    "targets": [
+      7005,
+      14811
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 882.85,
+    "candidate": 882.85
+  },
+  {
+    "targets": [
+      7005,
+      29621
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 1030.48,
+    "candidate": 923.02
+  },
+  {
+    "targets": [
+      8423,
+      14053
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 780.98,
+    "candidate": 772.73
+  },
+  {
+    "targets": [
+      8423,
+      28107
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 884.72,
+    "candidate": 819.28
+  },
+  {
+    "targets": [
+      9513,
+      15679
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 787.36,
+    "candidate": 754.11
+  },
+  {
+    "targets": [
+      9513,
+      31357
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 814.23,
+    "candidate": 814.23
+  },
+  {
+    "targets": [
+      11003,
+      24279
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 833.64,
+    "candidate": 814.49
+  },
+  {
+    "targets": [
+      12539,
+      15137
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 721.13,
+    "candidate": 715.81
+  },
+  {
+    "targets": [
+      12665,
+      20787
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 854.39,
+    "candidate": 826.46
+  },
+  {
+    "targets": [
+      13623,
+      18205
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 980.21,
+    "candidate": 925.68
+  },
+  {
+    "targets": [
+      14011,
+      14811
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 774.86,
+    "candidate": 800.93
+  },
+  {
+    "targets": [
+      14011,
+      29621
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 846.68,
+    "candidate": 877.8
+  },
+  {
+    "targets": [
+      16847,
+      28107
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 869.02,
+    "candidate": 832.85
+  },
+  {
+    "targets": [
+      18205,
+      27245
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 1177.05,
+    "candidate": 1063.47
+  },
+  {
+    "targets": [
+      19519,
+      26319
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 754.64,
+    "candidate": 775.66
+  },
+  {
+    "targets": [
+      20787,
+      25331
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 985.26,
+    "candidate": 825.13
+  },
+  {
+    "targets": [
+      22005,
+      24279
+    ],
+    "flow": "standard",
+    "metric": "area",
+    "reference": 1030.75,
+    "candidate": 974.62
+  },
+  {
+    "targets": [
+      601,
+      32413
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1316.24,
+    "candidate": 1401.63
+  },
+  {
+    "targets": [
+      1189,
+      31357
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1312.25,
+    "candidate": 1388.53
+  },
+  {
+    "targets": [
+      3035,
+      11003
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1246.83,
+    "candidate": 1278.32
+  },
+  {
+    "targets": [
+      3035,
+      22005
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1433.95,
+    "candidate": 1317.7
+  },
+  {
+    "targets": [
+      3211,
+      32611
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1327.77,
+    "candidate": 1339.81
+  },
+  {
+    "targets": [
+      4551,
+      27245
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1545.84,
+    "candidate": 1598.18
+  },
+  {
+    "targets": [
+      4809,
+      16207
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1345.83,
+    "candidate": 1235.64
+  },
+  {
+    "targets": [
+      4809,
+      32413
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1525.09,
+    "candidate": 1452.58
+  },
+  {
+    "targets": [
+      5197,
+      12665
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1482.35,
+    "candidate": 1361.21
+  },
+  {
+    "targets": [
+      5197,
+      25331
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1529.9,
+    "candidate": 1631.0
+  },
+  {
+    "targets": [
+      6393,
+      16069
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1233.23,
+    "candidate": 1357.62
+  },
+  {
+    "targets": [
+      6393,
+      32139
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1385.12,
+    "candidate": 1340.22
+  },
+  {
+    "targets": [
+      7005,
+      14811
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1444.22,
+    "candidate": 1444.22
+  },
+  {
+    "targets": [
+      7005,
+      29621
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1517.79,
+    "candidate": 1437.04
+  },
+  {
+    "targets": [
+      8423,
+      14053
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1490.09,
+    "candidate": 1475.31
+  },
+  {
+    "targets": [
+      8423,
+      28107
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1592.69,
+    "candidate": 1526.73
+  },
+  {
+    "targets": [
+      9513,
+      15679
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1302.65,
+    "candidate": 1354.48
+  },
+  {
+    "targets": [
+      9513,
+      31357
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1306.95,
+    "candidate": 1306.95
+  },
+  {
+    "targets": [
+      11003,
+      24279
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1388.7,
+    "candidate": 1396.54
+  },
+  {
+    "targets": [
+      12539,
+      15137
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1312.4,
+    "candidate": 1285.74
+  },
+  {
+    "targets": [
+      12665,
+      20787
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1479.23,
+    "candidate": 1457.72
+  },
+  {
+    "targets": [
+      13623,
+      18205
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1388.95,
+    "candidate": 1543.82
+  },
+  {
+    "targets": [
+      14011,
+      14811
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1492.09,
+    "candidate": 1480.2
+  },
+  {
+    "targets": [
+      14011,
+      29621
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1575.6,
+    "candidate": 1501.14
+  },
+  {
+    "targets": [
+      16847,
+      28107
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1535.23,
+    "candidate": 1507.51
+  },
+  {
+    "targets": [
+      18205,
+      27245
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1702.78,
+    "candidate": 1721.5
+  },
+  {
+    "targets": [
+      19519,
+      26319
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1333.75,
+    "candidate": 1431.9
+  },
+  {
+    "targets": [
+      20787,
+      25331
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1539.55,
+    "candidate": 1684.57
+  },
+  {
+    "targets": [
+      22005,
+      24279
+    ],
+    "flow": "standard",
+    "metric": "delay_ps",
+    "reference": 1547.23,
+    "candidate": 1584.71
+  },
+  {
+    "targets": [
+      601,
+      32413
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 727.24,
+    "candidate": 659.95
+  },
+  {
+    "targets": [
+      1189,
+      31357
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 744.0,
+    "candidate": 690.8
+  },
+  {
+    "targets": [
+      3035,
+      11003
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 702.24,
+    "candidate": 658.35
+  },
+  {
+    "targets": [
+      3035,
+      22005
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 794.54,
+    "candidate": 723.52
+  },
+  {
+    "targets": [
+      3211,
+      32611
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 719.53,
+    "candidate": 719.53
+  },
+  {
+    "targets": [
+      4551,
+      27245
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 879.93,
+    "candidate": 789.22
+  },
+  {
+    "targets": [
+      4809,
+      16207
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 701.18,
+    "candidate": 701.18
+  },
+  {
+    "targets": [
+      4809,
+      32413
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 799.6,
+    "candidate": 709.95
+  },
+  {
+    "targets": [
+      5197,
+      12665
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 894.82,
+    "candidate": 766.88
+  },
+  {
+    "targets": [
+      5197,
+      25331
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 779.11,
+    "candidate": 763.15
+  },
+  {
+    "targets": [
+      6393,
+      16069
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 706.76,
+    "candidate": 676.17
+  },
+  {
+    "targets": [
+      6393,
+      32139
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 810.24,
+    "candidate": 797.2
+  },
+  {
+    "targets": [
+      7005,
+      14811
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 820.88,
+    "candidate": 817.15
+  },
+  {
+    "targets": [
+      7005,
+      29621
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 996.7,
+    "candidate": 889.5
+  },
+  {
+    "targets": [
+      8423,
+      14053
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 741.34,
+    "candidate": 716.6
+  },
+  {
+    "targets": [
+      8423,
+      28107
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 809.44,
+    "candidate": 768.47
+  },
+  {
+    "targets": [
+      9513,
+      15679
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 732.83,
+    "candidate": 672.71
+  },
+  {
+    "targets": [
+      9513,
+      31357
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 791.08,
+    "candidate": 791.08
+  },
+  {
+    "targets": [
+      11003,
+      24279
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 779.38,
+    "candidate": 746.4
+  },
+  {
+    "targets": [
+      12539,
+      15137
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 671.92,
+    "candidate": 674.04
+  },
+  {
+    "targets": [
+      12665,
+      20787
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 803.59,
+    "candidate": 792.95
+  },
+  {
+    "targets": [
+      13623,
+      18205
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 892.96,
+    "candidate": 856.79
+  },
+  {
+    "targets": [
+      14011,
+      14811
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 718.73,
+    "candidate": 719.53
+  },
+  {
+    "targets": [
+      14011,
+      29621
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 805.45,
+    "candidate": 821.14
+  },
+  {
+    "targets": [
+      16847,
+      28107
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 800.66,
+    "candidate": 803.32
+  },
+  {
+    "targets": [
+      18205,
+      27245
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 987.66,
+    "candidate": 939.51
+  },
+  {
+    "targets": [
+      19519,
+      26319
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 741.08,
+    "candidate": 774.33
+  },
+  {
+    "targets": [
+      20787,
+      25331
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 875.67,
+    "candidate": 751.72
+  },
+  {
+    "targets": [
+      22005,
+      24279
+    ],
+    "flow": "resyn2",
+    "metric": "area",
+    "reference": 935.26,
+    "candidate": 850.14
+  },
+  {
+    "targets": [
+      601,
+      32413
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1293.07,
+    "candidate": 1299.41
+  },
+  {
+    "targets": [
+      1189,
+      31357
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1232.28,
+    "candidate": 1289.18
+  },
+  {
+    "targets": [
+      3035,
+      11003
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1209.38,
+    "candidate": 1220.35
+  },
+  {
+    "targets": [
+      3035,
+      22005
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1424.6,
+    "candidate": 1309.99
+  },
+  {
+    "targets": [
+      3211,
+      32611
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1353.35,
+    "candidate": 1290.42
+  },
+  {
+    "targets": [
+      4551,
+      27245
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1477.88,
+    "candidate": 1516.13
+  },
+  {
+    "targets": [
+      4809,
+      16207
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1286.79,
+    "candidate": 1222.78
+  },
+  {
+    "targets": [
+      4809,
+      32413
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1390.95,
+    "candidate": 1439.36
+  },
+  {
+    "targets": [
+      5197,
+      12665
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1450.29,
+    "candidate": 1352.97
+  },
+  {
+    "targets": [
+      5197,
+      25331
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1437.79,
+    "candidate": 1644.24
+  },
+  {
+    "targets": [
+      6393,
+      16069
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1240.47,
+    "candidate": 1266.3
+  },
+  {
+    "targets": [
+      6393,
+      32139
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1357.29,
+    "candidate": 1386.97
+  },
+  {
+    "targets": [
+      7005,
+      14811
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1343.92,
+    "candidate": 1343.92
+  },
+  {
+    "targets": [
+      7005,
+      29621
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1345.95,
+    "candidate": 1352.67
+  },
+  {
+    "targets": [
+      8423,
+      14053
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1439.5,
+    "candidate": 1299.48
+  },
+  {
+    "targets": [
+      8423,
+      28107
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1446.89,
+    "candidate": 1387.49
+  },
+  {
+    "targets": [
+      9513,
+      15679
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1285.35,
+    "candidate": 1281.61
+  },
+  {
+    "targets": [
+      9513,
+      31357
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1282.34,
+    "candidate": 1282.34
+  },
+  {
+    "targets": [
+      11003,
+      24279
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1333.19,
+    "candidate": 1337.3
+  },
+  {
+    "targets": [
+      12539,
+      15137
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1244.87,
+    "candidate": 1203.26
+  },
+  {
+    "targets": [
+      12665,
+      20787
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1403.42,
+    "candidate": 1465.61
+  },
+  {
+    "targets": [
+      13623,
+      18205
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1403.34,
+    "candidate": 1474.44
+  },
+  {
+    "targets": [
+      14011,
+      14811
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1410.81,
+    "candidate": 1434.79
+  },
+  {
+    "targets": [
+      14011,
+      29621
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1597.88,
+    "candidate": 1473.52
+  },
+  {
+    "targets": [
+      16847,
+      28107
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1505.72,
+    "candidate": 1509.1
+  },
+  {
+    "targets": [
+      18205,
+      27245
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1657.65,
+    "candidate": 1736.99
+  },
+  {
+    "targets": [
+      19519,
+      26319
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1212.43,
+    "candidate": 1373.85
+  },
+  {
+    "targets": [
+      20787,
+      25331
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1417.26,
+    "candidate": 1651.81
+  },
+  {
+    "targets": [
+      22005,
+      24279
+    ],
+    "flow": "resyn2",
+    "metric": "delay_ps",
+    "reference": 1451.42,
+    "candidate": 1701.33
+  }
+]

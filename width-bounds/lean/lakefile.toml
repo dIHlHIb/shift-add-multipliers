@@ -1,0 +1,42 @@
+name = "MCMProofs"
+defaultTargets = ["MCMProofs"]
+
+[[lean_lib]]
+name = "MCMProofs"
+moreLeanArgs = ["-s65536"]
+roots = [
+  "AllLarge", "AllWidths", "Envelope", "GateLift", "GatePoly",
+  "McmAudit", "OneHelper", "OrderLift", "PrefixCheck", "PrefixColor",
+  "Pump", "R02Arithmetic", "R02Binary", "R02BitCandidates", "R02BitClosure",
+  "R02BitCost", "R02Bits", "R02Certificate", "R02Cut", "R02Decision",
+  "R02FilterData", "R02Inverse", "R02Meter", "R02NearFamily", "R02NearLower",
+  "R02NearPlan", "R02NearUpper", "R02Pools", "R02Residue", "R02Rigidity",
+  "R02RowChunks", "R02RowsBirth", "R02RowsFirst0", "R02RowsFirst1", "R02RowsLast0",
+  "R02RowsLast1", "R02RowsUse", "R02Screen", "R02Theorem", "R02Tight",
+  "R02TightStatement", "R02Width", "R02WidthSpec", "R06Cancellation", "R06Candidates",
+  "R06Closure", "R06Cost", "R06Decide", "R06Expansion", "R06Graph",
+  "R06Normalize", "R06Paths", "R06Polynomial", "R06Private", "R06Rebuild",
+  "R06System", "R06Targets", "R06Trace", "R06Transport", "R06Value",
+  "R06Width", "Signs", "SmallSystem", "Sparse", "Surplus",
+  "Transport",
+  "GPrefix7", "GPrefix8", "GPrefix9", "GPrefix10", "GPrefix11",
+  "GPrefix12", "GPrefix13", "GPrefix14", "GPrefix15", "GPrefix16",
+  "GPrefix17", "GPrefix18", "GPrefix19", "GPrefix20", "GPrefix21",
+  "GPrefix22", "GPrefix23", "GPrefix24", "GPrefix25", "GPrefix26",
+  "GPrefix27", "GPrefix28", "GPrefix29", "GPrefix30", "GPrefix31",
+  "GPrefix32", "GPrefix33", "GPrefix34", "GPrefix35", "GPrefix36",
+  "GPrefix37", "GPrefix38", "GPrefix39", "GPrefix40", "GPrefix41",
+  "GPrefix42", "GPrefix43", "GPrefix44", "GPrefix45", "GPrefix46",
+  "GPrefix47", "GPrefix48", "GPrefix49", "GPrefix50", "GPrefix51",
+  "GPrefix52", "GPrefix53", "GPrefix54", "GPrefix55", "GPrefix56",
+  "GPrefix57", "GPrefix58", "GPrefix59", "GPrefix60", "GPrefix61",
+  "GPrefix62", "GPrefix63", "GPrefix64", "GPrefix65", "GPrefix66",
+  "GPrefix67", "GPrefix68", "GPrefix69", "GPrefix70", "GPrefix71",
+  "GPrefix72", "GPrefix73", "GPrefix74", "GPrefix75", "GPrefix76",
+  "GPrefix77", "GPrefix78", "GPrefix79", "GPrefix80", "GPrefix81",
+  "GPrefix82", "GPrefix83", "GPrefix84", "GPrefix85", "GPrefix86",
+  "GPrefix87", "GPrefix88", "GPrefix89", "GPrefix90", "GPrefix91",
+  "GPrefix92", "GPrefix93", "GPrefix94", "GPrefix95", "GPrefix96",
+  "GPrefix97", "GPrefix98", "GPrefix99", "GPrefix100", "GPrefix101",
+  "GPrefix102", "GPrefix103", "GPrefix104",
+]

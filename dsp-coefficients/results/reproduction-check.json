@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "platform": "Apple Silicon macOS",
+  "date": "2026-11-25",
+  "entry_point": "./reproduce --work EMPTY_NEW_PATH --lean LEAN --mapping ABC LIBERTY --rtl IVERILOG VVP --iverilog-base IVL_LIB",
+  "initial_condition": "New working directory. Source inputs include the original Arm and CP data, archived solver and Hcub trials, and previous integer upper witnesses. All C++/Lean objects and mapping outputs rebuilt.",
+  "checks": {
+    "arm_sets": 2044,
+    "arm_table_positions": 6132,
+    "cp_rows": 83,
+    "cli_optima": 83,
+    "six_gate_pairs_excluded_at_five_by_both_searches": 851,
+    "small_modular_controls": 51912,
+    "bounded_integer_controls": 387,
+    "arm_target_width_exceptions": 1,
+    "cp_target_width_exceptions": 0,
+    "rewiring_cases_checked_both_directions": 59,
+    "jmcm_vectors": 79
+  },
+  "formal": {
+    "modules": 73,
+    "official": "Lean 4.19.0",
+    "secondary": "lean4lean",
+    "lake_default": "passed",
+    "scope": "Unrestricted and bounded upper witnesses, unrestricted-to-modular projection and cut conditions. Individual search exclusions are software results."
+  },
+  "hardware": {
+    "fixed_pairs": 29,
+    "mapped_netlists_original_panel": 2798,
+    "new_mapped_netlists_in_control": 618,
+    "inputs_per_netlist": 65536,
+    "primary": "matched label counts, parent rules and mapping budgets",
+    "controls": "full input pools and strengthened Hcub union",
+    "signed_verilog_transfer": {
+      "cases": 29,
+      "flow": "Icarus BLIF then ABC resyn2",
+      "area_saving_pct": 3.694
+    },
+    "rtl_simulations_examples": 35,
+    "rtl_simulations_exported": 29
+  },
+  "compared_files_sha256": {
+    "census.json": "a7a30ffa9caeb1bcd37827618910721818e67561ef909e9be9887642082735a5",
+    "cp-census.json": "c9a6e15e266afb6b3078f2ab12b3387ec2c3811e93dac1aee592f898da1971b3",
+    "fresh-cp-lower.json": "6ffdb54af075b242fe9ce1672968d4cb6120910af04ae20207eb3c9dfc90d2f0",
+    "hardware-summary.json": "ae7ea0ca1259f0ece5f424d7327c5594b7e59627656152024016a51e8d2d700e",
+    "hardware-pairs.json": "281d19844a3050d61fa9f4d085f17f8f14fbee098f29ad8719f0b08449958a23",
+    "hardware-by-hcub-cost.json": "0cd397b7b95379c15840494eb5971f27b11f6980cd457a63cb51bcf6a7124207",
+    "cli-certificates.json": "86b9c2f63e31688a7077b20f363b3885ad940704e8c31cd4c3459a1874bd9d78",
+    "jmcm-comparison.json": "075952ff47201491bc534b5eaeda8a096755d23ef023ae0515482f75d5bcda4e",
+    "width-census.json": "ef13e662415bf4e8fb5972d30b0633b6479acaf9bb464267a0c06f6c600acb2e",
+    "hcub-rewiring.json": "ebf406f3dafb283078a836d80e0d8e944cdf589045076b3fe2dcb201a0995d45",
+    "rewiring-independent.json": "58594aee2adbedf8ca140e24980739b79adae724214f89c848126ae414e83f8f",
+    "matched-hardware.json": "a541ddfaf0f6abc098af0ff6ec25f9f914ee3fdec6ef992b1f80fe74bf5d08d5",
+    "rtl-transfer.json": "d9e90688719bb08778c7dd145fcfb5f0612be7c6c113594b4647a20a4fe17007",
+    "cp-bounded-comparison.json": "4e2844c8ed59c560b77bd7be7aefbc9715e0cf4deceed8eb955b7d0551114f88"
+  }
+}

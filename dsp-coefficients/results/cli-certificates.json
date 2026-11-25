@@ -1,0 +1,1720 @@
+{
+  "BULL91_32": {
+    "targets": [
+      3,
+      5,
+      7,
+      9,
+      15,
+      35,
+      45,
+      49,
+      107,
+      127
+    ],
+    "upper": 10,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 10,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "CHANG06_3": {
+    "targets": [
+      139,
+      283,
+      815
+    ],
+    "upper": 6,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 1488"
+      }
+    ],
+    "minimum": 6,
+    "method": "signed shift-orbit exclusion"
+  },
+  "CHEN99_15": {
+    "targets": [
+      13,
+      223,
+      897,
+      2017
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 5,
+    "method": "integer target-only closure"
+  },
+  "CHEN99_28A": {
+    "targets": [
+      3,
+      7,
+      9,
+      21,
+      27,
+      43,
+      69,
+      97,
+      261
+    ],
+    "upper": 9,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 9,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "CHEN99_28B": {
+    "targets": [
+      5,
+      9,
+      13,
+      19,
+      23,
+      27,
+      97,
+      119,
+      1151
+    ],
+    "upper": 9,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 9,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "CHENYAO01_28A": {
+    "targets": [
+      3,
+      5,
+      11,
+      15,
+      25,
+      33,
+      121,
+      177
+    ],
+    "upper": 8,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 8,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "CHENYAO01_28B": {
+    "targets": [
+      3,
+      5,
+      11,
+      15,
+      25,
+      39,
+      121,
+      133,
+      1023
+    ],
+    "upper": 9,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 9,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "DEMPSTER02_25": {
+    "targets": [
+      35,
+      133,
+      199,
+      291,
+      327,
+      331,
+      355,
+      499,
+      505,
+      699,
+      1943,
+      2987,
+      3395
+    ],
+    "upper": 16,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 23 2 0/1 cuts 6 prefixes 1 penultimate 20 last_candidates 0 tested 0 helpers"
+      }
+    ],
+    "minimum": 16,
+    "method": "signed shift-orbit exclusion"
+  },
+  "DEMPSTER04_A3": {
+    "targets": [
+      5,
+      117,
+      195
+    ],
+    "upper": 4,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 4,
+    "method": "integer target-only closure"
+  },
+  "DEMPSTER04_B3": {
+    "targets": [
+      13,
+      43,
+      215
+    ],
+    "upper": 4,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 4,
+    "method": "integer target-only closure"
+  },
+  "DEMPSTER04_C3": {
+    "targets": [
+      947,
+      973,
+      1243
+    ],
+    "upper": 6,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 1488"
+      }
+    ],
+    "minimum": 6,
+    "method": "signed shift-orbit exclusion"
+  },
+  "DEMPSTER04_D3": {
+    "targets": [
+      105,
+      479,
+      939
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 0"
+      }
+    ],
+    "minimum": 5,
+    "method": "signed shift-orbit exclusion"
+  },
+  "DEMPSTER04_E3": {
+    "targets": [
+      3787,
+      9943,
+      15567
+    ],
+    "upper": 7,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 1488 247857"
+      }
+    ],
+    "minimum": 7,
+    "method": "signed shift-orbit exclusion"
+  },
+  "DEMPSTER04_F3": {
+    "targets": [
+      3981,
+      6243,
+      14603
+    ],
+    "upper": 7,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 1488 248667"
+      }
+    ],
+    "minimum": 7,
+    "method": "signed shift-orbit exclusion"
+  },
+  "DEMPSTER04_G4": {
+    "targets": [
+      303,
+      3643,
+      6729,
+      7479
+    ],
+    "upper": 8,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 1488 252332"
+      }
+    ],
+    "minimum": 8,
+    "method": "signed shift-orbit exclusion"
+  },
+  "DEMPSTER04_H4": {
+    "targets": [
+      10083,
+      12095,
+      12975,
+      15103
+    ],
+    "upper": 8,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 1488 253321"
+      }
+    ],
+    "minimum": 8,
+    "method": "signed shift-orbit exclusion"
+  },
+  "DEMPSTER04_I5": {
+    "targets": [
+      63,
+      407,
+      1823,
+      3059,
+      3817
+    ],
+    "upper": 8,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 75 13014"
+      }
+    ],
+    "minimum": 8,
+    "method": "signed shift-orbit exclusion"
+  },
+  "DEMPSTER04_J5": {
+    "targets": [
+      19,
+      841,
+      911,
+      935,
+      1561
+    ],
+    "upper": 8,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 1940"
+      }
+    ],
+    "minimum": 8,
+    "method": "signed shift-orbit exclusion"
+  },
+  "DEMPSTER04_K5": {
+    "targets": [
+      407,
+      569,
+      831,
+      1115,
+      2473
+    ],
+    "upper": 9,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 1488 265885"
+      }
+    ],
+    "minimum": 9,
+    "method": "signed shift-orbit exclusion"
+  },
+  "DEMPSTER04_L5": {
+    "targets": [
+      947,
+      973,
+      1243,
+      1991,
+      3651
+    ],
+    "upper": 9,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 1488 254886"
+      }
+    ],
+    "minimum": 9,
+    "method": "signed shift-orbit exclusion"
+  },
+  "GAUSSIAN_3": {
+    "targets": [
+      3,
+      21,
+      159
+    ],
+    "upper": 4,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 4,
+    "method": "integer target-only closure"
+  },
+  "GAUSSIAN_5": {
+    "targets": [
+      23,
+      343,
+      1267
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 0"
+      }
+    ],
+    "minimum": 5,
+    "method": "signed shift-orbit exclusion"
+  },
+  "GOODMAN77_C7": {
+    "targets": [
+      9
+    ],
+    "upper": 1,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 1,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "GOODMAN77_D7": {
+    "targets": [
+      3,
+      19
+    ],
+    "upper": 2,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 2,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "GOODMAN77_E11": {
+    "targets": [
+      3,
+      25,
+      75
+    ],
+    "upper": 3,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 3,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "GOODMAN77_F11": {
+    "targets": [
+      9,
+      11,
+      13,
+      173
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 5,
+    "method": "integer target-only closure"
+  },
+  "GOODMAN77_G11": {
+    "targets": [
+      7,
+      53,
+      151
+    ],
+    "upper": 4,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 4,
+    "method": "integer target-only closure"
+  },
+  "GOODMAN77_H15": {
+    "targets": [
+      3,
+      29,
+      33,
+      245,
+      401
+    ],
+    "upper": 7,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 271 0"
+      }
+    ],
+    "minimum": 7,
+    "method": "signed shift-orbit exclusion"
+  },
+  "GOODMAN77_I19": {
+    "targets": [
+      9,
+      29,
+      429,
+      1277,
+      2521
+    ],
+    "upper": 7,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 75 0"
+      }
+    ],
+    "minimum": 7,
+    "method": "signed shift-orbit exclusion"
+  },
+  "HIGHPASS_15": {
+    "targets": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      507
+    ],
+    "upper": 12,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 12,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "HIGHPASS_5": {
+    "targets": [
+      3,
+      5,
+      7,
+      121
+    ],
+    "upper": 4,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 4,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "HIGHPASS_9": {
+    "targets": [
+      3,
+      5,
+      7,
+      11,
+      125
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 5,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "JAIN91_11": {
+    "targets": [
+      3,
+      5,
+      17
+    ],
+    "upper": 3,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 3,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "JANG02_11": {
+    "targets": [
+      3,
+      5,
+      7
+    ],
+    "upper": 3,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 3,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "JHENG04_29A": {
+    "targets": [
+      5,
+      7,
+      11,
+      17,
+      25,
+      31,
+      71,
+      73,
+      389
+    ],
+    "upper": 9,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 9,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "JHENG04_29B": {
+    "targets": [
+      5,
+      9,
+      13,
+      15,
+      17,
+      19,
+      33,
+      39,
+      47
+    ],
+    "upper": 9,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 9,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "JHENG04_30": {
+    "targets": [
+      3,
+      5,
+      7,
+      11,
+      29,
+      39,
+      43,
+      123
+    ],
+    "upper": 8,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 8,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "JOHANSSON08_28": {
+    "targets": [
+      3,
+      9,
+      33,
+      45,
+      57,
+      73,
+      139,
+      143,
+      167,
+      273,
+      363,
+      571
+    ],
+    "upper": 12,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 12,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "JOHANSSON08_30": {
+    "targets": [
+      37,
+      47,
+      53,
+      57,
+      67,
+      81,
+      93,
+      133,
+      165,
+      179,
+      185,
+      211,
+      223,
+      253,
+      261,
+      283,
+      367,
+      375,
+      409,
+      441,
+      447,
+      495,
+      497,
+      647,
+      915,
+      961,
+      963,
+      975
+    ],
+    "upper": 29,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 29,
+    "method": "integer target-only closure"
+  },
+  "JOHANSSON08_A5": {
+    "targets": [
+      9,
+      387,
+      745,
+      805
+    ],
+    "upper": 6,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 75 0"
+      }
+    ],
+    "minimum": 6,
+    "method": "signed shift-orbit exclusion"
+  },
+  "JOHANSSON08_B5": {
+    "targets": [
+      57,
+      155,
+      189,
+      431,
+      611
+    ],
+    "upper": 7,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 0"
+      }
+    ],
+    "minimum": 7,
+    "method": "signed shift-orbit exclusion"
+  },
+  "KWENTUS97_11": {
+    "targets": [
+      3,
+      25,
+      75
+    ],
+    "upper": 3,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 3,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "KWENTUS97_15": {
+    "targets": [
+      5,
+      277,
+      621
+    ],
+    "upper": 4,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 4,
+    "method": "integer target-only closure"
+  },
+  "KWENTUS97_47": {
+    "targets": [
+      21,
+      27,
+      29,
+      55,
+      187,
+      207,
+      381,
+      623,
+      913,
+      977,
+      1147,
+      1295,
+      16359
+    ],
+    "upper": 16,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 23 2 0/1 cuts 6 prefixes 1 penultimate 20 last_candidates 7 tested 0 helpers"
+      }
+    ],
+    "minimum": 16,
+    "method": "signed shift-orbit exclusion"
+  },
+  "LAPLACIAN_3": {
+    "targets": [
+      5,
+      21,
+      107
+    ],
+    "upper": 3,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 3,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "LIM83A_36": {
+    "targets": [
+      3,
+      5,
+      7,
+      9,
+      31
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 5,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "LIM83_121": {
+    "targets": [
+      3,
+      7,
+      9,
+      17,
+      19,
+      21,
+      23,
+      35,
+      37,
+      39,
+      41,
+      45,
+      51,
+      55,
+      59,
+      61,
+      65,
+      69,
+      71,
+      75,
+      77,
+      89,
+      109,
+      125,
+      131,
+      141,
+      143,
+      151,
+      165,
+      167,
+      193,
+      195,
+      267,
+      273,
+      277,
+      323,
+      375,
+      399,
+      541,
+      545,
+      585,
+      761,
+      1071,
+      1515,
+      1653,
+      1739,
+      2823,
+      5927,
+      6747,
+      7343,
+      10267
+    ],
+    "upper": 52,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 52,
+    "method": "integer target-only closure"
+  },
+  "LIM83_36": {
+    "targets": [
+      3,
+      5,
+      7,
+      9,
+      15
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 5,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "LIM83_37": {
+    "targets": [
+      3,
+      5,
+      7,
+      9,
+      127
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 5,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "LIM83_63": {
+    "targets": [
+      3,
+      5,
+      7,
+      9,
+      15,
+      19,
+      21,
+      23,
+      29,
+      31,
+      33,
+      37,
+      41,
+      59,
+      61,
+      71,
+      99,
+      119,
+      195,
+      321,
+      351,
+      431
+    ],
+    "upper": 22,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 22,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "LIMAKT08_121": {
+    "targets": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      17,
+      19,
+      21,
+      23,
+      25,
+      31,
+      33,
+      35,
+      37,
+      41,
+      49,
+      61,
+      65,
+      69,
+      73,
+      79,
+      89,
+      119,
+      131,
+      151,
+      161,
+      167,
+      189,
+      197,
+      271,
+      281,
+      379,
+      413,
+      533,
+      537,
+      541,
+      641,
+      869,
+      1685,
+      2993,
+      5921,
+      14671
+    ],
+    "upper": 42,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 42,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "LIMPASKO99_121": {
+    "targets": [
+      3,
+      7,
+      9,
+      17,
+      19,
+      21,
+      23,
+      35,
+      37,
+      39,
+      41,
+      45,
+      51,
+      55,
+      59,
+      61,
+      65,
+      69,
+      71,
+      75,
+      77,
+      89,
+      109,
+      125,
+      131,
+      141,
+      143,
+      151,
+      165,
+      167,
+      193,
+      195,
+      267,
+      273,
+      277,
+      323,
+      375,
+      399,
+      435,
+      541,
+      545,
+      585,
+      741,
+      761,
+      827,
+      1071,
+      1515,
+      1687,
+      2567,
+      2823,
+      14687
+    ],
+    "upper": 51,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 51,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "LIMYU07_121": {
+    "targets": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      19,
+      29,
+      31,
+      53,
+      57,
+      59,
+      89,
+      113,
+      125,
+      129,
+      131,
+      133,
+      139,
+      145,
+      183,
+      241,
+      263,
+      271,
+      339,
+      355,
+      375,
+      475,
+      491,
+      493,
+      553,
+      595,
+      713,
+      789,
+      1215,
+      1275,
+      1343,
+      1369,
+      1371,
+      6115,
+      6655,
+      9305
+    ],
+    "upper": 43,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 43,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "LOWPASS_15": {
+    "targets": [
+      5,
+      7,
+      13,
+      17,
+      19,
+      21,
+      27,
+      41,
+      43,
+      45,
+      53,
+      61,
+      79,
+      93,
+      101,
+      103,
+      113,
+      133,
+      137,
+      199,
+      331,
+      333,
+      613,
+      1097,
+      1197
+    ],
+    "upper": 25,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 25,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "LOWPASS_5": {
+    "targets": [
+      11,
+      33,
+      35,
+      53,
+      103
+    ],
+    "upper": 6,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 6,
+    "method": "integer target-only closure"
+  },
+  "LOWPASS_9": {
+    "targets": [
+      5,
+      7,
+      25,
+      31,
+      63,
+      65,
+      67,
+      73,
+      97,
+      117,
+      165,
+      303
+    ],
+    "upper": 12,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 12,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "MARTINEZ02_4": {
+    "targets": [
+      105,
+      621,
+      815,
+      831
+    ],
+    "upper": 6,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 0"
+      }
+    ],
+    "minimum": 6,
+    "method": "signed shift-orbit exclusion"
+  },
+  "NIELSEN89_67A": {
+    "targets": [
+      3,
+      9,
+      11,
+      13,
+      27,
+      39,
+      45,
+      51,
+      95,
+      113,
+      153,
+      217,
+      263,
+      323,
+      379,
+      411,
+      431,
+      471,
+      987,
+      993,
+      1523,
+      2347,
+      3413,
+      3753,
+      10693,
+      32765
+    ],
+    "upper": 27,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 27,
+    "method": "integer target-only closure"
+  },
+  "NIELSEN89_67B": {
+    "targets": [
+      3,
+      5,
+      11,
+      13,
+      19,
+      25,
+      27,
+      39,
+      51,
+      95,
+      113,
+      145,
+      161,
+      215,
+      247,
+      307,
+      379,
+      411,
+      431,
+      469,
+      527,
+      761,
+      943,
+      993,
+      1173,
+      6827,
+      16383,
+      21387
+    ],
+    "upper": 29,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 29,
+    "method": "integer target-only closure"
+  },
+  "ROSA04_49": {
+    "targets": [
+      3,
+      5,
+      7,
+      11,
+      17,
+      33,
+      35,
+      37,
+      87,
+      167,
+      207
+    ],
+    "upper": 11,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 11,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "SAMUELI89_60": {
+    "targets": [
+      7,
+      11,
+      17,
+      21,
+      23,
+      27,
+      29,
+      31,
+      47,
+      49,
+      57,
+      59,
+      67,
+      79,
+      125,
+      129,
+      133,
+      161,
+      241,
+      251,
+      263,
+      529,
+      1217,
+      2055,
+      2239,
+      4737
+    ],
+    "upper": 26,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 26,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "SHAHEIN11_B": {
+    "targets": [
+      3,
+      5,
+      7,
+      9,
+      13,
+      15,
+      23,
+      25,
+      45,
+      95
+    ],
+    "upper": 10,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 10,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "SHAHEIN11_S2": {
+    "targets": [
+      3,
+      5,
+      11,
+      17,
+      19,
+      23,
+      27,
+      31,
+      33,
+      35,
+      53,
+      63,
+      91,
+      109,
+      145,
+      165,
+      281,
+      305,
+      321
+    ],
+    "upper": 19,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 19,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "SHI11_A": {
+    "targets": [
+      3,
+      7,
+      21,
+      23,
+      25,
+      45,
+      67,
+      75,
+      79,
+      171,
+      201,
+      509,
+      833,
+      969
+    ],
+    "upper": 14,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 14,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "SHI11_G1": {
+    "targets": [
+      3,
+      19
+    ],
+    "upper": 2,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 2,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "SHI11_L2": {
+    "targets": [
+      3,
+      5,
+      9,
+      13,
+      15,
+      19,
+      31,
+      35,
+      49,
+      51,
+      79,
+      85,
+      203,
+      339,
+      371,
+      499,
+      911
+    ],
+    "upper": 17,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 17,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "SHI11_S1_A": {
+    "targets": [
+      3,
+      5,
+      13,
+      17
+    ],
+    "upper": 4,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 4,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "SHI11_S1_B": {
+    "targets": [
+      3,
+      5,
+      7,
+      15,
+      65
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 5,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "SHI11_S2": {
+    "targets": [
+      3,
+      5,
+      13,
+      21,
+      23,
+      39,
+      49,
+      59,
+      65,
+      87,
+      93,
+      267,
+      413,
+      437,
+      449,
+      575,
+      757
+    ],
+    "upper": 17,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 17,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "SHI11_X1": {
+    "targets": [
+      7,
+      105,
+      113,
+      509
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 5,
+    "method": "integer target-only closure"
+  },
+  "SHI11_Y1": {
+    "targets": [
+      17,
+      21,
+      23,
+      205,
+      497,
+      527
+    ],
+    "upper": 6,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 6,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "SHI11_Y2": {
+    "targets": [
+      3,
+      9,
+      11,
+      15,
+      43,
+      91,
+      101,
+      137,
+      171,
+      255
+    ],
+    "upper": 10,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 10,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "UNSHARP_3-1": {
+    "targets": [
+      3,
+      11,
+      69
+    ],
+    "upper": 4,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 4,
+    "method": "integer target-only closure"
+  },
+  "UNSHARP_3-2": {
+    "targets": [
+      43,
+      171,
+      1109
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 0"
+      }
+    ],
+    "minimum": 5,
+    "method": "signed shift-orbit exclusion"
+  },
+  "VINOD03_15": {
+    "targets": [
+      97,
+      101,
+      391,
+      1289
+    ],
+    "upper": 6,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 20 0"
+      }
+    ],
+    "minimum": 6,
+    "method": "signed shift-orbit exclusion"
+  },
+  "VINOD03_26A": {
+    "targets": [
+      3,
+      7,
+      9,
+      11,
+      19,
+      31,
+      47
+    ],
+    "upper": 7,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 7,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "VINOD03_26B": {
+    "targets": [
+      89,
+      223,
+      611,
+      621,
+      1027,
+      2201,
+      2503,
+      3067,
+      3645,
+      4999,
+      6053,
+      8139,
+      14433
+    ],
+    "upper": 18,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 23 4 0/1 cuts 13 prefixes 2248 penultimate 654332 last_candidates 254 tested 19 helpers"
+      }
+    ],
+    "minimum": 18,
+    "method": "signed shift-orbit exclusion"
+  },
+  "XU07_15": {
+    "targets": [
+      5,
+      69,
+      553,
+      2483
+    ],
+    "upper": 5,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 5,
+    "method": "integer target-only closure"
+  },
+  "XU07_28": {
+    "targets": [
+      3,
+      11,
+      23,
+      25,
+      35,
+      53,
+      79,
+      407
+    ],
+    "upper": 8,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 8,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "YEUNG04_40": {
+    "targets": [
+      5,
+      13,
+      15,
+      63,
+      115,
+      157,
+      177,
+      283,
+      453,
+      579,
+      961,
+      2113,
+      3215,
+      3401,
+      3549,
+      6981,
+      31381,
+      58565,
+      116589,
+      251821
+    ],
+    "upper": 24,
+    "status": "optimal",
+    "trials": [
+      {
+        "period": 23,
+        "outcome": "impossible",
+        "replay": "IMPOSSIBLE 23 3 0/1 cuts 7 prefixes 2485 penultimate 7618804 last_candidates 23270 tested 2063 helpers"
+      }
+    ],
+    "minimum": 24,
+    "method": "signed shift-orbit exclusion"
+  },
+  "YLI01_30": {
+    "targets": [
+      3,
+      7,
+      9,
+      23,
+      25,
+      37,
+      543
+    ],
+    "upper": 8,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 8,
+    "method": "integer target-only closure"
+  },
+  "YOSHINO90_64": {
+    "targets": [
+      5,
+      9,
+      11,
+      15,
+      17,
+      19,
+      23,
+      39,
+      41,
+      51,
+      53,
+      61,
+      63,
+      65,
+      67,
+      85,
+      93,
+      107,
+      133,
+      141,
+      167,
+      215,
+      243,
+      391,
+      623
+    ],
+    "upper": 25,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 25,
+    "method": "one distinct gate per nontrivial odd target"
+  },
+  "ZAHOSAM89_25": {
+    "targets": [
+      3,
+      5,
+      7,
+      17,
+      23,
+      123
+    ],
+    "upper": 6,
+    "status": "optimal",
+    "trials": [],
+    "minimum": 6,
+    "method": "one distinct gate per nontrivial odd target"
+  }
+}

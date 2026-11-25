@@ -1,0 +1,28 @@
+{
+  "forbid_repeated_parents": {
+    "false_negatives": 983,
+    "example": [
+      29,
+      7979
+    ],
+    "positive_controls": 983
+  },
+  "omit_subtraction": {
+    "false_negatives": 773,
+    "example": [
+      79,
+      32375
+    ],
+    "positive_controls": 983
+  },
+  "require_independent_last_outputs": {
+    "false_negatives": 31,
+    "example": [
+      1509,
+      11077
+    ],
+    "positive_controls": 983
+  },
+  "wrong_shift_lean": "[test]/Altered.lean:3:63: error: tactic 'decide' proved that the proposition\n  accepts { targets := [3], gates := [{ t := 3, a := 1, b := 1, side := Side.second, op := Op.plus, shift := 3 }] } =\n    true\nis false\n",
+  "wrong_shift_integer": "rejected"
+}

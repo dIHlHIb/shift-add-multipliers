@@ -1,0 +1,8 @@
+{
+  "small_positive": 46,
+  "small_negative": 6,
+  "full_control_checks": [
+    "IMPOSSIBLE 31 2 0/1 cuts 7 prefixes 1 penultimate 3637 last_candidates 0 tested 0 helpers",
+    "IMPOSSIBLE 23 3 0/1 cuts 13 prefixes 20 penultimate 2248 last_candidates 0 tested 0 helpers"
+  ]
+}

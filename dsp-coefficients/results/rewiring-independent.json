@@ -1,0 +1,474 @@
+[
+  {
+    "targets": [
+      5303,
+      24975
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      5351,
+      24813
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      5739,
+      11691
+    ],
+    "one": false,
+    "union": true
+  },
+  {
+    "targets": [
+      5739,
+      23383
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      6247,
+      30293
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      6435,
+      20279
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      6835,
+      32047
+    ],
+    "one": true,
+    "union": true
+  },
+  {
+    "targets": [
+      7005,
+      29621
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      7523,
+      29109
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      8659,
+      27817
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      9415,
+      31387
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      9699,
+      13205
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      10491,
+      25169
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      10587,
+      25009
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      10613,
+      15501
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      10613,
+      31001
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      10683,
+      24845
+    ],
+    "one": false,
+    "union": true
+  },
+  {
+    "targets": [
+      10721,
+      24779
+    ],
+    "one": true,
+    "union": true
+  },
+  {
+    "targets": [
+      10853,
+      24547
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      10897,
+      15451
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      11059,
+      24177
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      11077,
+      24145
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      11691,
+      22957
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      12089,
+      22117
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      12455,
+      21289
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      12839,
+      20357
+    ],
+    "one": false,
+    "union": true
+  },
+  {
+    "targets": [
+      13233,
+      29977
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      13249,
+      19277
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      13509,
+      29855
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      13737,
+      29749
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      13965,
+      29643
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      15757,
+      28731
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      17189,
+      27897
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      17445,
+      27737
+    ],
+    "one": false,
+    "union": true
+  },
+  {
+    "targets": [
+      17869,
+      27467
+    ],
+    "one": false,
+    "union": true
+  },
+  {
+    "targets": [
+      18037,
+      27357
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      18205,
+      27245
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      18621,
+      26963
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      19033,
+      26675
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      19237,
+      26527
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      19641,
+      26229
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      19721,
+      26169
+    ],
+    "one": false,
+    "union": true
+  },
+  {
+    "targets": [
+      19761,
+      26139
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      20041,
+      25925
+    ],
+    "one": false,
+    "union": true
+  },
+  {
+    "targets": [
+      20279,
+      25739
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      20593,
+      25489
+    ],
+    "one": false,
+    "union": true
+  },
+  {
+    "targets": [
+      20981,
+      25169
+    ],
+    "one": true,
+    "union": true
+  },
+  {
+    "targets": [
+      21213,
+      24975
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      21441,
+      24779
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      21479,
+      24747
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      22005,
+      24279
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      22081,
+      24211
+    ],
+    "one": false,
+    "union": true
+  },
+  {
+    "targets": [
+      22117,
+      24177
+    ],
+    "one": false,
+    "union": true
+  },
+  {
+    "targets": [
+      22229,
+      24075
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      22375,
+      23939
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      22485,
+      23835
+    ],
+    "one": false,
+    "union": true
+  },
+  {
+    "targets": [
+      22595,
+      23733
+    ],
+    "one": true,
+    "union": true
+  },
+  {
+    "targets": [
+      22631,
+      23697
+    ],
+    "one": false,
+    "union": false
+  },
+  {
+    "targets": [
+      22957,
+      23383
+    ],
+    "one": false,
+    "union": false
+  }
+]

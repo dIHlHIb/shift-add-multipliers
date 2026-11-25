@@ -1,0 +1,8 @@
+{
+  "time_limit_s": 2,
+  "bounded_cp": {
+    "matched": 73,
+    "timeout": 10
+  },
+  "unrestricted_exact": 83
+}

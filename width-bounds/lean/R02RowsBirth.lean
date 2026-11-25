@@ -1,0 +1,109 @@
+import R02RowChunks
+namespace R02RowsBirth
+open R02Residue R02Screen R02FilterData R02Rigidity
+set_option Elab.async false
+set_option maxRecDepth 16384
+set_option maxHeartbeats 0
+private theorem r0_0 : (rowList (fixed 1) (fixed 1) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r0_1 : (rowList (fixed 1) (fixed 262143) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r0_2 : (rowList (fixed 1) (fixed 262139) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r0_3 : (rowList (fixed 1) (fixed 262107) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r0_4 : (rowList (fixed 1) (fixed 262011) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r0_5 : (rowList (fixed 1) (fixed 262105) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r0_6 : (rowList (fixed 1) (fixed 261995) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r1_0 : (rowList (fixed 262143) (fixed 1) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r1_1 : (rowList (fixed 262143) (fixed 262143) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r1_2 : (rowList (fixed 262143) (fixed 262139) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r1_3 : (rowList (fixed 262143) (fixed 262107) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r1_4 : (rowList (fixed 262143) (fixed 262011) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r1_5 : (rowList (fixed 262143) (fixed 262105) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r1_6 : (rowList (fixed 262143) (fixed 261995) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r2_0 : (rowList (fixed 262139) (fixed 1) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r2_1 : (rowList (fixed 262139) (fixed 262143) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r2_2 : (rowList (fixed 262139) (fixed 262139) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r2_3 : (rowList (fixed 262139) (fixed 262107) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r2_4 : (rowList (fixed 262139) (fixed 262011) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r2_5 : (rowList (fixed 262139) (fixed 262105) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r2_6 : (rowList (fixed 262139) (fixed 261995) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r3_0 : (rowList (fixed 262107) (fixed 1) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r3_1 : (rowList (fixed 262107) (fixed 262143) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r3_2 : (rowList (fixed 262107) (fixed 262139) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r3_3 : (rowList (fixed 262107) (fixed 262107) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r3_4 : (rowList (fixed 262107) (fixed 262011) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r3_5 : (rowList (fixed 262107) (fixed 262105) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r3_6 : (rowList (fixed 262107) (fixed 261995) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r4_0 : (rowList (fixed 262011) (fixed 1) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r4_1 : (rowList (fixed 262011) (fixed 262143) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r4_2 : (rowList (fixed 262011) (fixed 262139) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r4_3 : (rowList (fixed 262011) (fixed 262107) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r4_4 : (rowList (fixed 262011) (fixed 262011) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r4_5 : (rowList (fixed 262011) (fixed 262105) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r4_6 : (rowList (fixed 262011) (fixed 261995) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r5_0 : (rowList (fixed 262105) (fixed 1) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r5_1 : (rowList (fixed 262105) (fixed 262143) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r5_2 : (rowList (fixed 262105) (fixed 262139) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r5_3 : (rowList (fixed 262105) (fixed 262107) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r5_4 : (rowList (fixed 262105) (fixed 262011) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r5_5 : (rowList (fixed 262105) (fixed 262105) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r5_6 : (rowList (fixed 262105) (fixed 261995) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r6_0 : (rowList (fixed 261995) (fixed 1) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r6_1 : (rowList (fixed 261995) (fixed 262143) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r6_2 : (rowList (fixed 261995) (fixed 262139) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r6_3 : (rowList (fixed 261995) (fixed 262107) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r6_4 : (rowList (fixed 261995) (fixed 262011) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r6_5 : (rowList (fixed 261995) (fixed 262105) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+private theorem r6_6 : (rowList (fixed 261995) (fixed 261995) helper).all (birthSafe both)=true := by
+  apply R02RowChunks.all_tags <;> decide +kernel
+theorem birth : (rows start helper).all (birthSafe both)=true := by
+  simp only [checkPool,rows,List.all_flatMap,used,start,base,List.map_cons,List.map_nil,List.all_cons,List.all_nil,
+    r0_0,r0_1,r0_2,r0_3,r0_4,r0_5,r0_6,r1_0,r1_1,r1_2,r1_3,r1_4,r1_5,r1_6,r2_0,r2_1,r2_2,r2_3,r2_4,r2_5,r2_6,r3_0,r3_1,r3_2,r3_3,r3_4,r3_5,r3_6,r4_0,r4_1,r4_2,r4_3,r4_4,r4_5,r4_6,r5_0,r5_1,r5_2,r5_3,r5_4,r5_5,r5_6,r6_0,r6_1,r6_2,r6_3,r6_4,r6_5,r6_6,Bool.and_true]
+end R02RowsBirth
+#print axioms R02RowsBirth.birth

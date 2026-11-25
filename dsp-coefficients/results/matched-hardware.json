@@ -1,0 +1,133 @@
+{
+  "additional_graphs": 309,
+  "additional_mapped_netlists": 618,
+  "cases": 29,
+  "groups": {
+    "matched": {
+      "standard": {
+        "area": {
+          "reference_sum": 24875.24,
+          "candidate_sum": 23786.54,
+          "sum_saving_pct": 4.3766,
+          "median_saving_pct": 3.2946,
+          "smaller": 20,
+          "equal": 1,
+          "larger": 8
+        },
+        "delay_ps": {
+          "reference_sum": 41737.45,
+          "candidate_sum": 42167.36,
+          "sum_saving_pct": -1.03,
+          "median_saving_pct": -0.9472,
+          "smaller": 11,
+          "equal": 2,
+          "larger": 16
+        }
+      },
+      "resyn2": {
+        "area": {
+          "reference_sum": 23234.31,
+          "candidate_sum": 22238.65,
+          "sum_saving_pct": 4.2853,
+          "median_saving_pct": 3.3372,
+          "smaller": 19,
+          "equal": 2,
+          "larger": 8
+        },
+        "delay_ps": {
+          "reference_sum": 39936.08,
+          "candidate_sum": 40879.74,
+          "sum_saving_pct": -2.3629,
+          "median_saving_pct": -0.9071,
+          "smaller": 10,
+          "equal": 1,
+          "larger": 18
+        }
+      }
+    },
+    "full": {
+      "standard": {
+        "area": {
+          "reference_sum": 24835.61,
+          "candidate_sum": 23557.51,
+          "sum_saving_pct": 5.1462,
+          "median_saving_pct": 4.1622,
+          "smaller": 22,
+          "equal": 3,
+          "larger": 4
+        },
+        "delay_ps": {
+          "reference_sum": 41742.96,
+          "candidate_sum": 41842.52,
+          "sum_saving_pct": -0.2385,
+          "median_saving_pct": 0.0,
+          "smaller": 14,
+          "equal": 2,
+          "larger": 13
+        }
+      },
+      "resyn2": {
+        "area": {
+          "reference_sum": 23163.82,
+          "candidate_sum": 22041.28,
+          "sum_saving_pct": 4.8461,
+          "median_saving_pct": 4.2316,
+          "smaller": 21,
+          "equal": 3,
+          "larger": 5
+        },
+        "delay_ps": {
+          "reference_sum": 40092.88,
+          "candidate_sum": 40547.61,
+          "sum_saving_pct": -1.1342,
+          "median_saving_pct": -0.4993,
+          "smaller": 9,
+          "equal": 2,
+          "larger": 18
+        }
+      }
+    },
+    "conservative": {
+      "standard": {
+        "area": {
+          "reference_sum": 24835.61,
+          "candidate_sum": 23557.51,
+          "sum_saving_pct": 5.1462,
+          "median_saving_pct": 4.1622,
+          "smaller": 22,
+          "equal": 3,
+          "larger": 4
+        },
+        "delay_ps": {
+          "reference_sum": 41634.3,
+          "candidate_sum": 41842.52,
+          "sum_saving_pct": -0.5001,
+          "median_saving_pct": 0.0,
+          "smaller": 13,
+          "equal": 2,
+          "larger": 14
+        }
+      },
+      "resyn2": {
+        "area": {
+          "reference_sum": 23163.82,
+          "candidate_sum": 22041.28,
+          "sum_saving_pct": 4.8461,
+          "median_saving_pct": 4.2316,
+          "smaller": 21,
+          "equal": 3,
+          "larger": 5
+        },
+        "delay_ps": {
+          "reference_sum": 39936.08,
+          "candidate_sum": 40547.61,
+          "sum_saving_pct": -1.5313,
+          "median_saving_pct": -0.4993,
+          "smaller": 9,
+          "equal": 2,
+          "larger": 18
+        }
+      }
+    }
+  }
+}

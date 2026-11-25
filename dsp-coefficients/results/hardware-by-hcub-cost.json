@@ -1,0 +1,34 @@
+{
+  "standard": {
+    "6": {
+      "blocks": 26,
+      "reference_area": 21597.33,
+      "candidate_area": 20596.4,
+      "area_saved": 1000.93,
+      "reduction_pct": 4.6345
+    },
+    "7": {
+      "blocks": 3,
+      "reference_area": 3238.28,
+      "candidate_area": 2961.11,
+      "area_saved": 277.17,
+      "reduction_pct": 8.5592
+    }
+  },
+  "resyn2": {
+    "6": {
+      "blocks": 26,
+      "reference_area": 20244.2,
+      "candidate_area": 19362.13,
+      "area_saved": 882.07,
+      "reduction_pct": 4.3571
+    },
+    "7": {
+      "blocks": 3,
+      "reference_area": 2919.62,
+      "candidate_area": 2679.15,
+      "area_saved": 240.47,
+      "reduction_pct": 8.2363
+    }
+  }
+}

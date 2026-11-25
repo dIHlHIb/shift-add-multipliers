@@ -1,0 +1,24 @@
+name = "Q15Arithmetic"
+defaultTargets = ["Q15Arithmetic"]
+
+[[lean_lib]]
+name = "Q15Arithmetic"
+roots = [
+  "WidthInventory",
+  "CPBench", "CutNecessity", "McmAudit", "ModularTransfer", "OrbitProjection",
+  "Q15Atlas", "Q15Bank00", "Q15Bank01", "Q15Bank02", "Q15Bank03",
+  "Q15Bank04", "Q15Bank05", "Q15Bank06", "Q15Bank07", "Q15Bank08",
+  "Q15Bank09", "Q15Bank10", "Q15Bank11", "Q15Bank12", "Q15Bank13",
+  "Q15Bank14", "Q15Bank15", "Q15Bank16", "Q15Bank17", "Q15Bank18",
+  "Q15Bank19", "Q15Bank20", "Q15Bank21", "Q15Bank22", "Q15Bank23",
+  "Q15Bank24", "Q15Bank25", "Q15Bank26", "Q15Bank27", "Q15Bank28",
+  "Q15Bank29", "Q15Bank30", "Q15Bank31", "Q15Bank32", "Q15Bank33",
+  "Q15Bank34", "Q15Bank35", "Q15Bank36", "Q15Bank37", "Q15Bank38",
+  "Q15Bank39", "Q15Bank40", "Q15Bank41", "Q15Bank42", "Q15Bank43",
+  "Q15Bank44", "Q15Bank45", "Q15Bank46", "Q15Bank47", "Q15Bank48",
+  "Q15Bank49", "Q15Bank50", "Q15Bank51", "Q15Bank52", "Q15Bank53",
+  "Q15Bank54", "Q15Bank55", "Q15Bank56", "Q15Bank57", "Q15Bank58",
+  "Q15Bank59", "Q15Bank60", "Q15Bank61", "Q15Bank62", "Q15Bank63",
+  "Q15Upper", "R06Graph",
+]
+moreLeanArgs = ["-s65536"]

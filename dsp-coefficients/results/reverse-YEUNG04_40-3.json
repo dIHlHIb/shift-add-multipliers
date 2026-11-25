@@ -1,0 +1,28 @@
+{
+  "targets": [
+    5,
+    13,
+    15,
+    63,
+    115,
+    157,
+    177,
+    283,
+    453,
+    579,
+    961,
+    2113,
+    3215,
+    3401,
+    3549,
+    6981,
+    31381,
+    58565,
+    116589,
+    251821
+  ],
+  "period": 23,
+  "helpers": 3,
+  "line": "IMPOSSIBLE p 23 budget 3 isolated 6 prefixes 2485 penultimate 7618804 candidates 147773 helpers",
+  "seconds": 8.661
+}
